@@ -5,6 +5,7 @@ body {
 }
 
 .titre {
+	color: white;
 	margin-bottom: : 50%;
 	text-decoration-color: #910052;
 	text-align: center;
@@ -16,7 +17,7 @@ body {
 	font-family: Verdana, sans-serif;
 	background: #FFF url('space2.jpg') no-repeat scroll top left;
 	background-size: 100%;
-	border:solid;
+	border: #FFF solid;
 	border-radius:1;
 	box-shadow: 0px 4px 1px #13073A;
 	 -webkit-animation-duration: 1s;
