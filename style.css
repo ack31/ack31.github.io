@@ -4,6 +4,9 @@ body {
 	background-size: 1920px 1080px;
 }
 
+h1:hover {
+	color: purple;
+}
 .titre {
 	color: white;
 	margin-bottom: : 50%;
