@@ -1,97 +1,62 @@
+html { 
+  background: url(R3cpQ9R.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
-	font-family: 'Noto Sans TC', sans-serif;
-	margin:0;
-
-}
-
-ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
-  background-color: #333;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-
-}
-
-.header {
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
-}
-
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
-}
-
-.topnav img {
-  width: 50px;
-}
-
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-}
-
-.header a:hover {
-  background-color: #ed1c24;
-  color: black;
-  display: block;
-  text-align: center;
-}
-
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-
-
-#logo {
-	margin-bottom: -5%;
-	max-width: 100%;
-   	height: auto;
-
-}
-
-ul.topnav {
-  list-style-type: none;
   margin: 0;
-  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#titre {
+  color: white;
+
+}
+
+
+
+
+
+/*------------------------Menu en css-------------------------*/
+.topnav {
   overflow: hidden;
   background-color: #333;
 }
-
-ul.topnav li {float: left;}
-
-ul.topnav li a {
+#logo {
+  width: 50px;
   display: block;
-  color: white;
+  padding: -10px -14px;
+  margin-bottom: -6px;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-ul.topnav li a:hover:not(.active) {background-color: #ed1c24;}
-
-ul.topnav li a.active {background-color: #4CAF50;}
-
-ul.topnav li.right {float: right;}
-
-@media screen and (max-width: 360px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
+  font-size: 17px;
+  font-weight: bold;
 }
 
-@media screen and (max-width: 360px) {
+.topnav a:hover {
+  background-color: #ed1c24;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ed1c24;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -99,9 +64,9 @@ ul.topnav li.right {float: right;}
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
+  .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
@@ -112,31 +77,4 @@ ul.topnav li.right {float: right;}
     text-align: left;
   }
 }
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
-}
-
-/* Add an active class to highlight the current page */
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-  display: none;
-}
+/*---------------------------------------------------------*/
