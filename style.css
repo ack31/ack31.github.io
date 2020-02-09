@@ -1,5 +1,5 @@
 html { 
-  background: url(R3cpQ9R.gif) no-repeat center center fixed; 
+  background: url(R3cpQ9R.gif) center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -13,7 +13,14 @@ body {
 
 #titre {
   color: white;
+}
 
+@media (min-width: 481px) {
+  #picblock {
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: contain ;
+  }
 }
 
 
