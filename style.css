@@ -1,100 +1,142 @@
 body {
-	font-family: 'Titillium Web', sans-serif;
-	background-image: url(983377.png);
-	background-size: 1920px 1080px;
+	font-family: 'Noto Sans TC', sans-serif;
+	margin:0;
+
 }
 
-h1:hover {
-	color: purple;
-}
-.titre {
-	color: white;
-	margin-bottom: : 50%;
-	text-decoration-color: #910052;
-	text-align: center;
-	text-shadow: 8px 8px 4px #13073A;
-	font-weight: bold;
-	font-size: 30px;
-	line-height: 24px;
-	padding: 25px;
-	font-family: Verdana, sans-serif;
-	background: #FFF url('space2.jpg') no-repeat scroll top left;
-	background-size: 100%;
-	border: #FFF solid;
-	border-radius:1;
-	box-shadow: 0px 4px 1px #13073A;
-	 -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 
-	/*background-color: #FFF;
-	background-image: url(123.jpg);
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: top left;*/
-
-
-
-/*	text-align: center;
-	font-weight: bold;
-	font-size: 35px;
-	background: -webkit-linear-gradient(top,  #503066 4%,#4c00af 16%,#4c00af 16%,#4c00af 34%,#5d448e 44%,#5d448e 56%,#6c2bad 65%);
-	text-shadow: 2px 2px #503066;
-	border:solid;
-	border-top-color: purple;*/
 }
 
-audio {
-	position: absolute;
-	top:80%;
-	bottom: 10%;
-	left: 5%;
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
 }
 
-img {
-	width: 200px;
-	height: 200px;
-	padding: 10px;
-	border: 1px solid #CCC;
-	box-shadow: 0px 0px 17px #BBB;
-	margin:2px;
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
 
-/*
-	width: 150px;
-	height: 200px;
-	border:solid;
-	border-radius: 1;*/
+.topnav img {
+  width: 50px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.header a:hover {
+  background-color: #ed1c24;
+  color: black;
+  display: block;
+  text-align: center;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
 }
 
 
+#logo {
+	margin-bottom: -5%;
+	max-width: 100%;
+   	height: auto;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*body {
-	font-family: 'Open Sans', sans-serif;
-	background-image: url(679140.png);
-	background-size: 20%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 }
 
-h1 {
-	color: lime;
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
-.div1 {
-	color: lime;
 
-}*/
+ul.topnav li {float: left;}
 
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) {background-color: #ed1c24;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 360px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+@media screen and (max-width: 360px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}

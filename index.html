@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>SITE WEB ACK</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
-	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <title>ACK News - Technology</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-	<h1 class="animated fadeInDown delay-0.5s titre">SITE WEB ACK </h1>
-	<img class="animated fadeInDown delay-1.5s" src="https://i.pinimg.com/236x/80/5e/46/805e4678332fa006efab0fca1d274125.jpg">
-	<img class="animated fadeInDown delay-1s" src="154242.jpg">
-	<audio class="animated fadeInDown delay-2s" controls="controls" autoplay="autoplay" loop="loop">
-		<source src="song.mp3">
-	</audio>
-</body>
+        <body>
+            <div class="header">
+                <ul class="topnav" id="myTopnav">
+                    <a href="https://ack31.github.io/" class="logo"><img src="ack.png"></a>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </ul>
+            </div>
+            <script>
+                    function myFunction() {
+                      var x = document.getElementById("myTopnav");
+                      if (x.className === "topnav") {
+                        x.className += " responsive";
+                      } else {
+                        x.className = "topnav";
+                      }
+                    }
+            </script>
+
+        </body>
 </html>
