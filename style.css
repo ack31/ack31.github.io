@@ -11,45 +11,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.titre {
-  position: relative;
-  margin: 100px;
-  float: left;
-  color: white;
-  border:solid #ed1c24;
-  background-color: #222234;
-  background-position: center;
-  border-radius: 25px;
-  padding: 20px;
-  width: 320px;
-  height: 150px;
-}
-
-
-.p1 {
-  position: relative;
-  margin: 100px;
-  float:left;
-  color: white;
-  border:solid #ed1c24;
-  background-color: #222234;
-  background-position: center;
-  border-radius: 25px;
-  padding: 20px;
-  width: 320px;
-  height: 150px;
-
-}
-
-@media (min-width: 481px) {
-  #picblock {
-    background-image: url(banner.jpg);
-    background-repeat: no-repeat;
-    background-size: contain ;
-  }
-}
-
-
 
 
 
