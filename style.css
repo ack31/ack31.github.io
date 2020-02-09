@@ -25,21 +25,6 @@ body {
   height: 150px;
 }
 
-@media screen and (max-width: 600px) {
-  .titre.responsive {position: relative;}
-  .titre.responsive {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-@media screen and (max-width: 600px) {
-  .p1.responsive {position: relative;}
-  .p1.responsive {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
 
 .p1 {
   position: relative;
