@@ -1,5 +1,5 @@
 html { 
-  background: url(R3cpQ9R.gif) responsive; 
+  background: url(R3cpQ9R.gif) center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,8 +11,32 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#titre {
+.titre {
+  position: relative;
+  margin: 100px;
+  float: left;
   color: white;
+  border:solid #ed1c24;
+  background-color: #222234;
+  background-position: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: 320px;
+  height: 150px;
+}
+
+.p1 {
+  position: relative;
+  margin: 100px;
+  float:left;
+  color: white;
+  border:solid #ed1c24;
+  background-color: #222234;
+  background-position: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: 320px;
+  height: 150px;
 }
 
 @media (min-width: 481px) {
