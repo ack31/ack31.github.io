@@ -1,3 +1,4 @@
+
 html { 
   background: url(R3cpQ9R.gif) center center fixed; 
   -webkit-background-size: cover;
@@ -15,7 +16,7 @@ body {
   color: white;
   text-align: center;
   border:solid red;
-  background-color: #131216; 
+  background-color: #131216;
 }
 
 
@@ -31,6 +32,8 @@ body {
   padding: -10px -14px;
   margin-bottom: -6px;
 }
+
+
 .topnav a {
   float: left;
   display: block;
@@ -46,6 +49,8 @@ body {
   background-color: #ed1c24;
   color: black;
 }
+
+
 
 .topnav a.active {
   background-color: #ed1c24;
@@ -78,3 +83,142 @@ body {
   }
 }
 /*---------------------------------------------------------*/
+
+#pied_de_page {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 0%;
+  width: 100%;
+  background-color: #ED1C24;
+  color: white;
+  text-decoration: underline; 
+  text-align: center;
+}
+
+/*------------------------------------------------------*/
+
+.icon-bar {
+  position: fixed;
+  margin-top: 15%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 18px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .icon-bar {
+  position: fixed;
+  margin-top: 65%;
+  margin-left:0%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 13px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+}
+
+
+/*-------------------------------------------*/
+
+
+
+#p1 {
+  margin-left: 6%;
+  margin-top: -2%;
+  color: white;
+  text-decoration: none;
+
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #p1 {
+  margin-left: 36%;
+  margin-top: 5%;
+  color: white;
+  text-decoration: none;
+}
+
+}
+
+a.ex3, a.ex3:visited {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  border: solid red;
+  background-color: #222234;
+  border-radius: 14px 14px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ img.img1 {
+  margin-left: 14%;
+  margin-top: 2%;
+  max-width:80%;
+  object-fit: scale-down;
+}
+}
+
+.img1 {
+  margin-left: 5%;
+  margin-top: -0.5%;
+  max-width:30%;
+  object-fit: scale-down;
+  border: solid red;
+  border-radius: 14px 14px;
+}
