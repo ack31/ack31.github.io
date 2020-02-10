@@ -82,20 +82,6 @@ body {
     text-align: left;
   }
 }
-/*---------------------------------------------------------*/
-
-
-#pied_de_page {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  margin-bottom: 0%;
-  width: 100%;
-  background-color: #ED1C24;
-  color: white;
-  text-decoration: underline; 
-  text-align: center;
-}
 
 /*------------------------------------------------------*/
 
@@ -222,4 +208,19 @@ a.ex3, a.ex3:visited {
   object-fit: scale-down;
   border: solid red;
   border-radius: 14px 14px;
+}
+
+/*---------------------------------------------------------*/
+
+
+#pied_de_page {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-bottom: -0%;
+  width: 100%;
+  background-color: #ED1C24;
+  color: white;
+  text-decoration: underline; 
+  text-align: center;
 }
