@@ -216,15 +216,17 @@ a.ex3, a.ex3:visited {
 
 /*---------------------------------------------------------*/
 
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {
   /* For mobile phones: */
-#pied_de_page {
-  margin-left: 14%;
-  margin-top: 2%;
-  max-width:80%;
+/*#pied_de_page {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-bottom: -0%;
+  width: 100%;
   object-fit: scale-down;
 }
-}
+}*/
 
 #pied_de_page {
   position: fixed;
