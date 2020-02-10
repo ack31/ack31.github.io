@@ -397,6 +397,17 @@ input:focus, textarea:focus {
   background-color:white;
 }
 
+h2 {
+  text-align: center;
+  color: white;
+}
+
+h2:hover {
+  text-align: center;
+  color: red;
+  text-shadow: 8px 2px 20px red;
+}
+
 @media only screen and (max-width: 580px) {
   #form-div{
     left: 3%;
